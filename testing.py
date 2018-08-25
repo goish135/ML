@@ -77,4 +77,51 @@ sheet = table.add_sheet('sheet1')
 for i in range(len(ans)):
 	sheet.write(i,0,y[i])
 	sheet.write(i,1,ans[i])
-table.save('ans.xls')	
+table.save('ans.xls')
+
+# 畫圖	
+import matplotlib.pyplot as plt
+
+xx = np.linspace(1,73,73)
+print(xx)
+yy1 = y
+yy2 = ans
+
+plt.figure()
+plt.plot(xx,yy1,label='real')
+plt.plot(xx,yy2,color='red',label='predict')
+plt.legend(loc='upper left')
+plt.xlim((1,73))
+plt.ylim((20,80))
+plt.xlabel('time')
+plt.ylabel('value')
+plt.xticks([10,20,30,40,50,60,70],['10:04','10:54','11:44','12:34','13:24','14:14','15:04'])
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
