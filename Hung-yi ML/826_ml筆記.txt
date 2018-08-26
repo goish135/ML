@@ -1,0 +1,56 @@
+Clssification:
+Probabilistic Generative Model
+概率          生成      
+
+例子:
+Credit Scoring
+Input: income,saving,profession,age,past financial history
+Output:accept or refuse
+-> Binary Classification
+
+Medical Diagnosis
+Input : 目前症狀，年齡，性別，過去病例
+Output: 什麼病
+
+Handwritten character recognition 
+
+Input: 瑜  Output: 瑜 (至少8000個)
+Input: image of a face output: person(誰的臉)
+
+f(皮卡丘) = 電 
+數值 量化
+
+Classification 硬解 Regression (relationship，可微分)
+		    y = b + w1x1 + w2x2
+
+		    x1,x2 : 特徵值
+
+Perceptron，SVM 可用來解 Classification
+"機率"
+3個steps: 1 2 3
+
+Gaussian distribution depend on mew,sigma
+ 
+-> 找 mew , sigma >> Maximum Likelihoood 
+
+
+機器學習不是只有2維空間  可以處理多維空間
+
+feature 多 > bias 大 > 可能overfitting
+
+bishop
+
+fancy : 人不知怎麼做 machine 做的出來 
+
+three steps 1. Function Set(Model):
+            2. Goodness of a function 定義參數的好壞
+	    3. Find the best function: easy
+
+簡單 > 參數少 > bias 大 variance 小
+複雜 > 參數多 > bias 小 variance 大
+
+  
+
+
+
+
