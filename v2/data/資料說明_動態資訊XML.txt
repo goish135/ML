@@ -1,0 +1,14 @@
+2018/07/20 11:40:07 ~ 2018/07/21 08:52:05 (255欄)
+                                          (B~IV)
+255欄 = 255份 動態資訊 xml 檔
+
+why ? 欄數限制 256欄(MAX) X 65536(列)
+參考資料 : 
+https://tw.answers.yahoo.com/question/index?qid=20061010000012KK12849
+https://tw.answers.yahoo.com/question/index?qid=20060619000012KK02006 -- 程式設計 
+ 
+routeid 6600m開頭
+6600m10149 ~ 6600m4ZY03 (10414)
+                        (2~10415)
+
+
