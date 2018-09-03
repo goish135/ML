@@ -42,7 +42,7 @@ for f in lay_2:
 				except:
 					print('ignore error then continue')
 					pass
-			#col+=1
+			
 					
 table.save('train.xls')					
 				
