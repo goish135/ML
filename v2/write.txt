@@ -1,0 +1,4 @@
+#開啟檔案
+fp = open("程式說明","a")
+
+#寫入 picture and text! 到檔案

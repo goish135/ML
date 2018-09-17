@@ -2,12 +2,11 @@ import xlrd,os
 import numpy as np
 import math
 
-data = xlrd.open_workbook('./value.xls')
+data = xlrd.open_workbook('./train.xls')
 table = data.sheet_by_name('sheet1')
 
 col_value = table.row_values(5) # 66000m10153
-
-
+# 從0開始編號 
 
 x = []
 y = []
@@ -16,7 +15,7 @@ start = 1
 total = (table.ncols-1)-5+1
 for i in range(total):
 	x.append([])
-	for j in range(start,start+4):
+	for j in range(start,start+4): # 1 2 3 4
 		if col_value[j] == '':
 			flag = 0 
 			for k in range(j-1,1,-1):
@@ -33,7 +32,7 @@ for i in range(total):
 			if flag == 0:
 				col_value[j] = 200
 		x[i].append(int(col_value[j]))
-	if col_value[start+4] == '':
+	if col_value[start+4] == '':   # 5
 		mark = 0
 		for a in range(start+4-1,1,-1):
 			if col_value[a]!='':
