@@ -1,0 +1,32 @@
+<<<前情提要>>>
+[第一階段]
+路段ID:66000m10153
+
+[第二階段]
+路段ID:66000m10153
+
+[第三階段]
+路段ID: X
+-------------------------------------切換-----------------------
+Evaluate Model => evaluate.py
+
+# try1
+原本以為要 Sum(abs(真實-預測)) / 筆數
+try 完後 數據不太能看出什麼...見圖1
+
+# try2
+使用 決定參數 Coefficient of Determination
+算法:
+R^2 == 1-SSres/SStot
+SSres 為 殘差平方和
+SStot 為 總平方和
+詳細情形見R^2.png 
+越接近1越好
+[結果]
+evaluate.json
+---------------------------------切換----------------------------
+ref:
+wiki Coefficient of Determination
+https://zh.wikipedia.org/wiki/%E5%86%B3%E5%AE%9A%E7%B3%BB%E6%95%B0
+如何在 Azure Machine Learning 中評估模型效能
+https://docs.microsoft.com/zh-tw/azure/machine-learning/studio/evaluate-model-performance 
