@@ -8,7 +8,8 @@
 [第三階段]
 路段ID: X
 -------------------------------------切換-----------------------
-Evaluate Model => evaluate.py
+Evaluate Model => evaluate.py 
+資料視覺化畫圖 => drawSomething.py
 
 # try1
 原本以為要 Sum(abs(真實-預測)) / 筆數
